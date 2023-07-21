@@ -78,3 +78,17 @@
   filter: sepia(.7);
   border-radius: 20px;
 }
+
+/* <!-- Esercizio 9 -->  */
+
+.ex-9-img {
+  transition: all 2s;
+}
+
+.ex-9-img:hover {
+  filter: sepia(.7);
+  border-radius: 20px;
+  scale: 1.5;
+}
+
+/* <!-- Esercizio 10 --> */
