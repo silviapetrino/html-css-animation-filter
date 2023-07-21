@@ -143,3 +143,43 @@
     transform: rotate(-360deg);
   }
 }
+
+
+/* <!-- Esercizio 12 --> */
+
+.ex-12-button:hover .ex-12-top-white {
+ animation: slide 2s alternate;
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: slide-2 2s alternate;
+}
+
+@keyframes slide {
+
+  0% {
+    top: -10px;
+    left: 10%;
+  }
+
+  50% {
+  top: -10px;
+  left: calc(100% - 60px);
+  }
+}
+
+
+@keyframes slide-2 {
+  0% {
+    bottom: -10px;
+    right: 20%;
+  }
+
+
+  50% {
+  bottom: -10px;
+  right: calc(100% - 60px);
+  }
+
+}
+
+/* <!-- Esercizio 13 --> */
