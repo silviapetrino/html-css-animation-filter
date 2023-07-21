@@ -53,3 +53,28 @@
 } 
 
 /* <!-- Esercizio 6 --> */
+
+.ex-6-img:hover {
+ filter: grayscale(1);
+}
+
+/* <!-- Esercizio 7 --> */
+
+.ex-7-img {
+  transition: all 1s;
+}
+
+.ex-7-img:hover {
+  filter: sepia(.8);
+}
+
+/* <!-- Esercizio 8 --> */
+
+.ex-8-img {
+  transition: all 1s;
+}
+
+.ex-8-img:hover {
+  filter: sepia(.7);
+  border-radius: 20px;
+}
