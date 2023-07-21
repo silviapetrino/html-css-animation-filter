@@ -92,3 +92,25 @@
 }
 
 /* <!-- Esercizio 10 --> */
+
+.ex-10-icon {
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite; 
+  animation-timing-function: linear; 
+
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(10deg);
+  }
+
+ 
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* !-- Esercizio 11 --> */
