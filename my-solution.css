@@ -193,7 +193,7 @@
 }
 
 
-@keyframes {
+@keyframes giro-completo {
   0% {
       left: 10%;
       top: -10px;
